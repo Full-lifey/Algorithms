@@ -9,13 +9,6 @@ def rock_paper_scissors(n):
     # for play in rps:
     #   for play2 in rps:
     #     result.append([play, play2])
-
-    '''
-  For n=2
-  loop over rps
-    for every item in rps
-      [rps[0], rps2[0]], [rps[0], [rps[1]]]
-  '''
     results = []
 
     def loop(n, previous_plays=[]):
